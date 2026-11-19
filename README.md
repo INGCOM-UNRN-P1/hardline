@@ -41,3 +41,7 @@ El contrato del módulo se documenta en `docs/hardboiled.md`. Las especificacion
 `android-spec.md` y `companion/spec.md` describen la evolución general del producto;
 los perfiles Meet/Slides, UDP broadcast y el companion de escritorio no forman
 parte de esta implementación.
+
+## Contacto
+
+Martín René Vilugrón - mrvilugron@unrn.edu.ar - Ingeniería en Computación UNRN Andina
