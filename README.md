@@ -1,4 +1,4 @@
-# Cyberdeck
+# Hardline
 
 Aplicación Android de periféricos para `hardboiled` (ola 40). Kotlin, Compose
 Material 3, Android 8+ (API 26), WebSocket OkHttp y descubrimiento DNS-SD nativo.
@@ -19,7 +19,7 @@ También se genera el APK en CI como artefacto descargable.
 ## Usar en clase
 
 Iniciá `hardboiled run programa.c --board placa.toml --remote` en la computadora.
-La placa debe tener un ADC de tres canales o más. Abrí Cyberdeck en el teléfono:
+La placa debe tener un ADC de tres canales o más. Abrí Hardline en el teléfono:
 
 1. **Buscar en Wi-Fi** encuentra la IP/puerto por mDNS; ingresá el PIN de seis dígitos.
 2. **Escanear QR** completa IP/puerto/PIN desde el QR mostrado en la terminal.

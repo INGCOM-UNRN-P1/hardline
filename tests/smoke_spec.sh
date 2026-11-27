@@ -12,4 +12,4 @@ grep -q "Seguridad y Descubrimiento" "$spec"
 grep -q "WebSocket" "$spec"
 grep -q "AutomationService" "$spec"
 
-printf 'cyberdeck spec smoke: ok\n'
+printf 'hardline spec smoke: ok\n'

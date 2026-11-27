@@ -1,4 +1,4 @@
-package ar.edu.unrn.cyberdeck
+package ar.edu.unrn.hardline
 
 import android.hardware.*
 import android.os.Bundle
@@ -43,7 +43,7 @@ class MainActivity : ComponentActivity(), SensorEventListener {
             MaterialTheme {
                 Surface(Modifier.fillMaxSize()) {
                     Column(Modifier.windowInsetsPadding(WindowInsets.safeDrawing).padding(24.dp).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                        Text("Cyberdeck · Hardboiled", style = MaterialTheme.typography.headlineSmall)
+                        Text("Hardline · Hardboiled", style = MaterialTheme.typography.headlineSmall)
                         Text(bridge.status)
                         if (!bridge.active) {
                             OutlinedTextField(host, { host = it }, label = { Text("IP del emulador") })

@@ -4,10 +4,10 @@ plugins {
     id("org.jetbrains.kotlin.plugin.compose")
 }
 android {
-    namespace = "ar.edu.unrn.cyberdeck"
+    namespace = "ar.edu.unrn.hardline"
     compileSdk = 35
     defaultConfig {
-        applicationId = "ar.edu.unrn.cyberdeck"
+        applicationId = "ar.edu.unrn.hardline"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
